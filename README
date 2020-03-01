@@ -1,0 +1,13 @@
+This is alpha-level software. To load (and play):
+Start a lisp
+Load pantzer.asd
+Ask ASDF to load the system "pantzer" (this should suck CLX in).
+Run NET.HEXAPODIA.PANTZER:UI-LOOP
+
+You steer by shifting the mouse pointer left or right.
+You fire with button-1 and exit with button-3.
+
+At the moment, there is no "change speed" implemented (might,
+possibly, come in the future).
+
+Licensing... See the file "copyright".
